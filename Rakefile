@@ -4,19 +4,19 @@ require "stringex"
 
 ## -- Rsync Deploy config -- ##
 # Be sure your public key is listed in your server's ~/.ssh/authorized_keys file
-ssh_user       = "user@domain.com"
+ssh_user       = "gadgil@math.iisc.ernet.in"
 ssh_port       = "22"
-document_root  = "~/website.com/"
-rsync_delete   = false
+document_root  = "~/math.iisc.ernet.in/~gadgil/BasicAnalysis"
+rsync_delete   = true
 rsync_args     = ""  # Any extra arguments to pass to rsync
-deploy_default = "push"
+deploy_default = "rsync"
 
 # This will be configured for you when you run config_deploy
 deploy_branch  = "gh-pages"
 
 ## -- Misc Configs -- ##
 
-public_dir      = "public"    # compiled site directory
+public_dir      = "public/~gadgil/BasicAnalysis"    # compiled site directory
 source_dir      = "source"    # source file directory
 blog_index_dir  = 'source'    # directory for your blog's index page (if you put your index in source/blog/index.html, set this to 'source/blog')
 deploy_dir      = "_deploy"   # deploy directory (for Github pages deployment)
@@ -252,7 +252,7 @@ desc "deploy public directory to github pages"
 multitask :push do
   puts "## Deploying branch to Github Pages "
   puts "## Pulling any updates from Github Pages "
-  cd "#{deploy_dir}" do 
+  cd "#{deploy_dir}" do
     system "git pull"
   end
   (Dir["#{deploy_dir}/*"]).each { |f| rm_rf(f) }
