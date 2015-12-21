@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Ma 232: Introduction to Algebraic Topology"
+title: "UM 202 : Basic Analysis"
 comments: true
 sharing: true
 footer: true
@@ -23,7 +23,6 @@ Tutorial timing: Wed 6:30 - 7:30 p.m., LH-II (basement), Department of Mathemati
 
 __e-mail:__ _siddhartha DOT gadgil At gmail DOT com_
 
-__Tutor:__ Arpan Kabiraj
 
 ## Syllabus:
 
