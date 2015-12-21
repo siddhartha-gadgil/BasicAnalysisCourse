@@ -1,0 +1,3 @@
+[submodule ".themes/wood"]
+	path = .themes/wood
+	url = https://github.com/octothemes/wood.git
