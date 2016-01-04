@@ -10,7 +10,8 @@ footer: true
 
 ## Timings and Venue:
 
-To be finalized
+* **Timing:** Tuesday, Thursday and Friday, 11:00 a.m. to 12:00 noon
+* **Venue:** Room G2, Old Physics building.
 
 ## Instructor
 
