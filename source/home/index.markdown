@@ -20,6 +20,10 @@ footer: true
 __e-mail:__ _siddhartha DOT gadgil At gmail DOT com_
 
 
+## Assignments:
+
+An assignment will be posted every Friday morning, and will be due on the next Friday. 
+
 ## Syllabus:
 
 Basic notions from set theory, countable and uncountable sets. Metric spaces: definition and examples, basic topological notions. The topology of R^n: topology induced by norms, the Heine-Borel theorem, connected sets. Sequences and series: essential definitions, absolute versus conditional convergence of series, some tests of convergence of series. Continuous functions: properties, the sequential and the open-set characterizations of continuity, uniform continuity. Differentiation in one variable. The Riemann integral: formal definitions and properties, continuous functions and integration, the Fundamental Theorem of Calculus. Uniform convergence: definition, motivations and examples, uniform convergence and integration, the Weierstrass Approximation Theorem.
